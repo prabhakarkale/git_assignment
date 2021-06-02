@@ -7,6 +7,6 @@ class MultiplyOperation
     }
     int multiply(int a, int b)
     {
-        return a * b;
+        return Math.abs(a * b);
     }
 }
